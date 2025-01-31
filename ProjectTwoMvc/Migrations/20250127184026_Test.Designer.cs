@@ -10,7 +10,7 @@ using ProjectTwoMVC.Data;
 
 namespace ProjectTwoMVC.Migrations
 {
-    [DbContext(typeof(ProjectTwoMVCContext))]
+    [DbContext(typeof(ProjectTwoMvcContext))]
     [Migration("20250127184026_Test")]
     partial class Test
     {

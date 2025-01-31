@@ -4,9 +4,9 @@ using ProjectTwoMVC.Backend.Models.Entities;
 
 namespace ProjectTwoMVC.Data
 {
-    public class ProjectTwoMVCContext : DbContext
+    public class ProjectTwoMvcContext : DbContext
     {
-        public ProjectTwoMVCContext(DbContextOptions<ProjectTwoMVCContext> options)
+        public ProjectTwoMvcContext(DbContextOptions<ProjectTwoMvcContext> options)
         : base(options)
         {
         }

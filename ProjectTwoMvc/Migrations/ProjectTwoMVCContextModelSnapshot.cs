@@ -9,7 +9,7 @@ using ProjectTwoMVC.Data;
 
 namespace ProjectTwoMVC.Migrations
 {
-    [DbContext(typeof(ProjectTwoMVCContext))]
+    [DbContext(typeof(ProjectTwoMvcContext))]
     partial class ProjectTwoMVCContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

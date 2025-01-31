@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("ProjectTwoMVCContext");
 
-builder.Services.AddDbContext<ProjectTwoMVCContext>(options =>
+builder.Services.AddDbContext<ProjectTwoMvcContext>(options =>
 
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString),
         mysqlOptions => mysqlOptions.MigrationsAssembly("ProjectTwoMVC"))
